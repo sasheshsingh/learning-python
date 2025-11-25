@@ -22,3 +22,11 @@ class Employee:
 print(Employee.is_valid_position("Associate"))
 
 print(Employee.is_valid_position("Manager"))
+
+employee1 = Employee("Eugune", "Manager")
+employee2 = Employee("Squidward", "Cashier")
+employee3 = Employee("Spongebob", "Cook")
+
+print(employee1.get_info())
+print(employee2.get_info())
+print(employee3.get_info())
